@@ -1,0 +1,26 @@
+.section_acion {
+    padding: 40px 0;
+    &-all {
+        display: flex;
+        gap: 26px;
+        margin-top: 40px;
+    }
+    &-left {
+        position: relative;
+    }
+    &-right {
+        position: relative;
+    }
+    &-text {
+        position: absolute;
+        bottom: 0;
+        height: 71px;
+        background-color: #000;
+        color: white;
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+    }
+}
